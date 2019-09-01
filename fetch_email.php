@@ -3,7 +3,7 @@ include_once('IMAP/class.imap.php');
 error_reporting(E_ERROR);
  $hostname='{imap.gmail.com:993/imap/ssl/novalidate-cert}INBOX';
  $username='USEREMAIL';
- $password='PASSWORD';
+ $password='PASSWOR';
 $inbox=imap_open($hostname,$username,$password);
 if(empty($inbox)){
     die("Connection problem");
